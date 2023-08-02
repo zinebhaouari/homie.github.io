@@ -30,7 +30,7 @@
 
 .header {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
     grid-template-areas: "logo  nav ";
     height: 63px;
 }
@@ -47,9 +47,11 @@
 
 .logo h2 {
     color: black;
-    font-size: xx-large;
+    font-size: 35px;
     font-weight: bolder;
     font-family: sans-serif;
+    margin-left: -31%;
+
 }
 
 nav .sng {
@@ -145,7 +147,19 @@ nav li a:hover {
 }
 
 .ktba {
-    padding: 50px;
+    padding: 100px 50px 50px;
+}
+
+.ktba button {
+    width: 110px;
+    height: 60px;
+    border: 2px solid #fff;
+    background-color: var(--color1);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 .all {
@@ -190,6 +204,7 @@ footer {
     border: 1px solid transparent;
     box-shadow: 0 0 10px 2px rgba(37, 73, 214, 0.18);
     width: 950px;
+    margin-top: 15px;
 }
 
 .chs select {
@@ -251,12 +266,13 @@ footer {
 .us button {
     width: 114px;
     padding: 10px 0;
-    border: 5px solid #fff;
+    border: 3px solid transparent;
     background-color: var(--color1);
     color: #fff;
     border-radius: 25px;
     font-size: medium;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .abtus {
